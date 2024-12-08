@@ -80,7 +80,7 @@ if (isset($_POST['login'])) {
                 $_SESSION['admin_id'] = $row['adminID'];
                 $_SESSION['admin_name'] = $row['name'];
 
-                header("Location: landing.php");
+                header("Location: index.php");
                 exit;
             } else {
                 $message = "Invalid password for admin. Please try again.";
@@ -281,7 +281,7 @@ if (isset($_POST['login'])) {
             <img src="Assets/sndlogo-wShadow.png" alt="logo"/>
             <h1>Login</h1>
             <p>New to S&D Shop? 
-                <a href="sndLandingpage.php#presignup" class="signup">Sign Up</a>
+                <a href="index#presignup" class="signup">Sign Up</a>
             </p>
 
             <label for="email">Email</label>
@@ -301,7 +301,7 @@ if (isset($_POST['login'])) {
           </p> -->
 
             <div class="buttons">
-                <button type="button" class="cancelbtn" onclick="window.location.href='sndLandingpage.php';">Cancel</button>
+                <button type="button" class="cancelbtn" onclick="window.location.href='index.php';">Cancel</button>
                 <button type="submit" name ="login" class="signupbtn">Login</button>
             </div>
         </form>
