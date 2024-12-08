@@ -503,7 +503,7 @@ h2 {
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f1e8d9; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);">
         <div class="container-fluid d-flex justify-content-between align-items-center">
-            <a class="navbar-brand fs-4" href="sndLandingpage.php">
+            <a class="navbar-brand fs-4" href="homepage.php">
                 <img src="Assets/sndlogo.png" width="70px" alt="Logo"/> 
             </a>
 
