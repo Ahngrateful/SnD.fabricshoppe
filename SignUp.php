@@ -54,7 +54,7 @@ if (isset($_POST['create'])) {
                     document.addEventListener('DOMContentLoaded', function() {
                         document.getElementById('overlay').style.display = 'flex';
                         setTimeout(function() {
-                            window.location.href = 'sndLandingpage.php';
+                            window.location.href = 'index.php';
                         }, 3000);
                     });
                   </script>";
@@ -78,7 +78,7 @@ if (isset($_POST['cancel'])) {
 
         // Check if a row was deleted and redirect
         if ($rowsAffected) {
-            header("Location: sndLandingpage.php");
+            header("Location: index.php");
             exit;
         } else {
             echo "No rows were deleted.";
